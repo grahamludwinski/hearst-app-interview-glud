@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-type ProductType = {
+export type ProductType = {
     id: any,
     title: string,
     imageUrl: string
