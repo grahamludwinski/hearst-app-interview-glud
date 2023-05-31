@@ -43,3 +43,18 @@ body {
     margin: .5rem 0;
   }
 }
+.modal-container {
+  background-color: #DDDDDD;
+  border: 1px solid #333333;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  display: none;
+  left: 10%;
+  top: 10%;
+  transform: translate(-5%, -5%);
+  z-index: 999;
+}
+.modal-container.open {
+  display: block;
+}
